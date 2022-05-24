@@ -313,7 +313,14 @@
                             </div>
                             <div class="ms-xl-4">
                                 <div class="input-group mb-2">
-                                    <input class="form-control" type="text" placeholder="vibha.dabholkar@berkeley.edu" aria-label="vibha.dabholkar@berkeley.edu" aria-describedby="button-newsletter" />
+                                    <input class="form-control" type="text" placeholder="Email..." aria-label="Email..." aria-describedby="button-newsletter" />
+                                    <script>
+                                    function sendEmail() 
+                                    {
+                                        window.location = "mailto:xyz@yourapplicationdomain.com";
+                                    }
+                                    </script>
+                                    <div onclick="sendEmail();">Send e-mail</div>
                                     <button class="btn btn-outline-light" id="button-newsletter" type="button">Send ✉️</button>
                                 </div>
                                 <div class="small text-white-50">I look forward to talking and meeting with you!</div>
