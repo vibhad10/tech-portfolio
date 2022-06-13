@@ -140,6 +140,28 @@
                     </div>
                 </div>
             </section>
+            <!-- Call to action-->
+            <aside class="bg-primary-x bg-gradient rounded-3 p-4 p-sm-5 mt-5">
+                <div class="d-flex align-items-center justify-content-between flex-column flex-xl-row text-center text-xl-start">
+                    <div class="mb-4 mb-xl-0">
+                        <div class="fs-3 fw-bold text-white">Contact Me!</div>
+                        <div class="text-white-50">Want more info on a project or just want to say hi?</div>
+                    </div>
+                    <div class="ms-xl-4">
+                        <div class="input-group mb-2">
+                            <input class="form-control" type="text" placeholder="Something funny :)" aria-label="Something funny :)" aria-describedby="button-newsletter" />
+                            <script>
+                            function sendEmail() 
+                            {
+                                window.location = "mailto:vibha.dabholkar@berkeley.edu?subject=Hello, just reaching out!"
+                            }
+                            </script>
+                            <button onclick="sendEmail();" class="btn btn-outline-light" id="button-newsletter" type="button">Send ✉️</button>
+                        </div>
+                        <div class="small text-white-50">I look forward to talking and meeting with you!</div>
+                    </div>
+                </div>
+            </aside>
         </main>
         <!-- Footer-->
         <footer class="bg-dark py-4 mt-auto">
