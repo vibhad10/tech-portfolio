@@ -7848,6 +7848,11 @@ textarea.form-control-lg {
   color: #7899D4 !important;
 }
 
+.text-mutedp2 {
+  --bs-text-opacity: 1;
+  color: #143068 !important;
+}
+
 .text-black-50 {
   --bs-text-opacity: 1;
   color: rgba(0, 0, 0, 0.5) !important;
