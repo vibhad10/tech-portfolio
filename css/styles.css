@@ -109,6 +109,8 @@
 
 .image__overlay--blur {
     backdrop-filter: blur(5px);
+    align-items: center;
+    justify-content: center;
 }
 
 .image__overlay--primary {
@@ -129,12 +131,12 @@
 }
 
 .image__title {
-    font-size: 2em;
+    font-size: 1.5em;
     font-weight: bold;
 }
 
 .image__description {
-    font-size: 1.25em;
+    font-size: 1.10em;
     margin-top: 0.25em;
 }
 
