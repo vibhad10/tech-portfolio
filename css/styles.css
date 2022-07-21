@@ -138,6 +138,8 @@
 .image__description {
     font-size: 1.10em;
     margin-top: 0.25em;
+    align-items: center;
+
 }
 
 body {
