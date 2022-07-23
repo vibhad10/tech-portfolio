@@ -41,8 +41,8 @@
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
-  --bs-red-rgb: 174, 175, 179;
-  --bs-light-red: 218, 216, 217;
+  --bs-red-rgb: 81, 82, 83;
+  --bs-light-red: 255, 255, 255;
   --bs-primary-rgb: 173, 93, 78;
   --bs-secondary-rgb: 108, 117, 125;
   --bs-success-rgb: 25, 135, 84;
@@ -7939,7 +7939,7 @@ textarea.form-control-lg {
 
 .bg-light {
   --bs-bg-opacity: 1; 
-  background-image: url('https://i.ibb.co/R4WPmvc/moves.jpg');
+  background-image: none;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100% 100%;
