@@ -737,6 +737,49 @@ progress {
   margin-left: auto;
 }
 
+.carousel [role='list'] {
+  padding: 0;
+  list-style: none;
+}
+.carousel-scroll-container {
+  /* Enable horizontal scrolling */
+  overflow-x: auto;
+  /* Enable horizontal scroll snap */
+  scroll-snap-type: x proximity;
+  /* Smoothly snap from one focal point to another */
+  scroll-behavior: smooth;
+}
+.carousel-media {
+  /* Arrange media horizontally */
+  display: flex;
+}
+.carousel-item {
+  /* Limit the height of each media item */
+  height: 300px;
+  /* Prevent media from shrinking */
+  flex-shrink: 0;
+  /* The focal point for each item is the center */
+  scroll-snap-align: center;
+}
+.carousel-item:first-of-type {
+  /* Allow users to fully scroll to the start */
+  scroll-snap-align: start;
+}
+.carousel-item:last-of-type {
+  /* Allow users to fully scroll to the end */
+  scroll-snap-align: end;
+}
+.carousel-item > *,
+.carousel-item :is(picture, figure, img) {
+  height: 100%;
+}
+.carousel-item img {
+  /* Remove line height (typically done in a CSS reset) */
+  display: block;
+  /* Responsive width based on aspect ratio */
+  width: auto;
+}
+
 @media (min-width: 576px) {
   .container-sm, .container {
     max-width: 540px;
