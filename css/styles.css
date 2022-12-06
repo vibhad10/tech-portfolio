@@ -118,11 +118,6 @@
     border-radius: 30px;
 }
 
-hr {
-  border: 0;
-  border-top: 1px solid black;
-}
-
 .image__overlay--blur {
     backdrop-filter: blur(5px);
     align-items: center;
@@ -173,10 +168,10 @@ body {
 
 hr {
   margin: 1rem 0;
-  color: inherit;
+  color: #000000;
   background-color: currentColor;
   border: 0;
-  opacity: 0.25;
+  opacity: 0.75;
 }
 
 hr:not([size]) {
