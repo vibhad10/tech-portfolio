@@ -68,6 +68,9 @@
   --bs-btn-dg: 99, 163, 117;
   --bs-btn-desg: 173, 93, 78;
   --bs-btn-contact: 75, 109, 85;
+  --bs-btn-procreate: 164, 38, 122;
+  --bs-btn-illustrate: 229, 141, 35;
+  --bs-btn-photoshop: 165, 23, 66;
 }
 
 *,
@@ -7728,6 +7731,21 @@ textarea.form-control-lg {
 .bg-primary {
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-btn-dg), var(--bs-bg-opacity)) !important;
+}
+
+.bg-primary-procreate {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-btn-procreate), var(--bs-bg-opacity)) !important;
+}
+
+.bg-primary-illustrate {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-btn-illustrate), var(--bs-bg-opacity)) !important;
+}
+
+.bg-primary-photoshop {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-btn-photoshop), var(--bs-bg-opacity)) !important;
 }
 
 .bg-primary-x {
