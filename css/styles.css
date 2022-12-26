@@ -96,12 +96,12 @@
 }
 
 /* Images used */
-.img1 { background-image: url("runner1.jpg"); }
-.img2 { background-image: url("runner1.jpg"); }
-.img3 { background-image: url("runner1.jpg"); }
-.img4 { background-image: url("runner1.jpg"); }
-.img5 { background-image: url("runner1.jpg"); }
-.img6 { background-image: url("runner1.jpg"); }
+.img1 { background-image: url('https://i.ibb.co/C92ZJST/Untitled-Artwork-2.png'); }
+.img2 { background-image: url('https://i.ibb.co/C92ZJST/Untitled-Artwork-2.png'); }
+.img3 { background-image: url('https://i.ibb.co/C92ZJST/Untitled-Artwork-2.png'); }
+.img4 { background-image: url('https://i.ibb.co/C92ZJST/Untitled-Artwork-2.png'); }
+.img5 { background-image: url('https://i.ibb.co/C92ZJST/Untitled-Artwork-2.png'); }
+.img6 { background-image: url('https://i.ibb.co/C92ZJST/Untitled-Artwork-2.png'); }
 
 .image {
     position: relative;
