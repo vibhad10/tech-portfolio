@@ -85,6 +85,24 @@
   }
 }
 
+.bg-image {
+  /* Full height */
+  height: 50%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Images used */
+.img1 { background-image: "https://i.ibb.co/C92ZJST/Untitled-Artwork-2.png"; }
+.img2 { background-image: "https://i.ibb.co/C92ZJST/Untitled-Artwork-2.png"; }
+.img3 { background-image: "https://i.ibb.co/C92ZJST/Untitled-Artwork-2.png"; }
+.img4 { background-image: "https://i.ibb.co/C92ZJST/Untitled-Artwork-2.png"; }
+.img5 { background-image: "https://i.ibb.co/C92ZJST/Untitled-Artwork-2.png"; }
+.img6 { background-image: "https://i.ibb.co/C92ZJST/Untitled-Artwork-2.png"; }
+
 .image {
     position: relative;
     width: 400px;
